@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="logo-apple"></ion-icon>
+                        </span>
+                        <span class="title">Mall Del Sur - Diaz</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="home-outline"></ion-icon>
+                        </span>
+                        <span class="title">Panel</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="people-outline"></ion-icon>
+                        </span>
+                        <span class="title">Clientes</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="chatbubble-outline"></ion-icon>
+                        </span>
+                        <span class="title">Mensajes</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="help-outline"></ion-icon>
+                        </span>
+                        <span class="title">Ayuda</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="settings-outline"></ion-icon>
+                        </span>
+                        <span class="title">Ajustes</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="lock-closed-outline"></ion-icon>
+                        </span>
+                        <span class="title">Contraseña</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="log-out-outline"></ion-icon>
+                        </span>
+                        <span class="title">Desconectar</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- ========================= Main ==================== -->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Search here">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </label>
+                </div>
+
+                <div class="user">
+                    <img src="assets/imgs/miyamura.jpg" alt="">
+                </div>
+            </div>
+
+            <!-- ======================= Cards ================== -->
+            <div class="cardBox">
+                <div class="card">
+                    <div>
+                        <div class="numbers">1,504</div>
+                        <div class="cardName">Vistas diarias</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">80</div>
+                        <div class="cardName">Ventas</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="cart-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">284</div>
+                        <div class="cardName">Comentarios</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="chatbubbles-outline"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">S/7,842</div>
+                        <div class="cardName">Ganador(a)</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="cash-outline"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================ Order Details List ================= -->
+            <div class="details">
+                <div class="recentOrders">
+                    <div class="cardHeader">
+                        <h2>Órdenes recientes</h2>
+                        <a href="#" class="btn">Ver todo</a>
+                    </div>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Nombre</td>
+                                <td>Precio</td>
+                                <td>Pago</td>
+                                <td>Estado</td>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>CPU</td>
+                                <td>S/2.200</td>
+                                <td>Pagado</td>
+                                <td><span class="status delivered">Entregado</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Laptop HP</td>
+                                <td>S/3.200</td>
+                                <td>Pendiente</td>
+                                <td><span class="status pending">Pendiente</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Iphone 11</td>
+                                <td>S/2.000</td>
+                                <td>Pagado</td>
+                                <td><span class="status return">Devolver</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Silla Gamer</td>
+                                <td>S/550</td>
+                                <td>Pendiente</td>
+                                <td><span class="status inProgress">En curso</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Teclado Mecanico</td>
+                                <td>S/219</td>
+                                <td>Pagado</td>
+                                <td><span class="status delivered">Entregado</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Colla Doble Luna</td>
+                                <td>S/95</td>
+                                <td>Pendiente</td>
+                                <td><span class="status pending">Pendiente</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Pulsera Pandora</td>
+                                <td>S/300</td>
+                                <td>Pagado</td>
+                                <td><span class="status return">Devolver</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>Peluche </td>
+                                <td>S/105</td>
+                                <td>Pendiente</td>
+                                <td><span class="status inProgress">En curso</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- ================= New Customers ================ -->
+                <div class="recentCustomers">
+                    <div class="cardHeader">
+                        <h2>Recent Customers</h2>
+                    </div>
+
+                    <table>
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/Himmel.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Hans Diaz D. <br> <span>Alemania</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/mai.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Fabiola Leon F. <br> <span>España</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/goku.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Pedro Caycho H. <br> <span>Italia</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/zero.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Maria Suarez A. <br> <span>Francia</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/luffy.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Hery Villareal J. <br> <span>Inglaterra</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/bulma.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Kelly Rojas C. <br> <span>Portugal</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/itadori.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Niver Smith E. <br> <span>Croacia</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/aome.jpg" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Nelliel Reyes K. <br> <span>Holanda</span></h4>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
